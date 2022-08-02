@@ -1,9 +1,11 @@
 import './App.css';
+import Banner from './components/Banner';
 import Row from './components/Row';
 import requests from './request';
 function App() {
   return (
     <div className='App'>
+      <Banner />
       <Row
       isLargeRow={true}
       title = "Netflix Originals"

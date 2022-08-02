@@ -22,7 +22,7 @@ html,body{
     margin-right: 10px;
 }
 .row__posterLarge{
-    max-height: 200px;
+    max-height: 230px;
 }
 .row__poster:hover{
     transform: scale(1.2);

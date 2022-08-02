@@ -12,12 +12,13 @@ function Row({ title, fetchUrl, isLargeRow }) {
     setMovies(request.data.results);
   }
   useEffect(() => {
-    fetchData();
+    fetchData();  
   }, []);
-  
+ 
 
   return (
     <div className="row">
+      
       <h2>{title}</h2>
       <div className="row__posters">
         {movies.map((movie) => (
